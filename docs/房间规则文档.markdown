@@ -1,0 +1,91 @@
+#### ruleText参数
+``` json 1213
+{
+  "peopleNumberId":"1",
+  "gamesNumberId":"1",
+  "paymentMethodId":"2",
+  "bottomPointId":"1",
+  "piId":"1",
+  "piaoId":"1"
+}
+```
+
+``` json 
+{
+  "peopleNumber": [
+    {
+      "id": 1,
+      "name": "3人",
+      "peopleNumber": 3
+    },
+    {
+      "id": 2,
+      "name": "4人",
+      "peopleNumber": 4
+    }
+  ],
+  "gamesNumber": [
+    {
+      "id": 1,
+      "name": "8局1钻",
+      "gamesNumber": 8
+    },
+    {
+      "id": 2,
+      "name": "16局2钻",
+      "gamesNumber": 16
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": 1,
+      "name": "房主付费"
+    },
+    {
+      "id": 2,
+      "name": "平摊付费"
+    }
+  ],
+  "bottomPointList": [
+    {
+      "id": 1,
+      "name": "0.1分",
+      "bottomPoint": 0.1
+    },
+    {
+      "id": 2,
+      "name": "0.5分",
+      "bottomPoint": 0.5
+    },
+    {
+      "id": 3,
+      "name": "1分",
+      "bottomPoint": 1
+    }
+  ],
+  "playMeans": {
+    "pi": [
+      {
+        "id": 1,
+        "name": "4皮"
+      },
+      {
+        "id": 2,
+        "name": "8皮"
+      }
+    ],
+    "piao": [
+      {
+        "id": 1,
+        "name": "自由选漂",
+        "piaoNumber": 0
+      },
+      {
+        "id": 2,
+        "name": "固定选漂",
+        "piaoNumber": 1
+      }
+    ]
+  }
+}
+```
