@@ -1,7 +1,6 @@
 #### ruleText参数
 ``` json 1213
 {
-  "peopleNumberId":"1",
   "gamesNumberId":"1",
   "paymentMethodId":"2",
   "bottomPointId":"1",
@@ -12,18 +11,6 @@
 
 ``` json 
 {
-  "peopleNumber": [
-    {
-      "id": 1,
-      "name": "3人",
-      "peopleNumber": 3
-    },
-    {
-      "id": 2,
-      "name": "4人",
-      "peopleNumber": 4
-    }
-  ],
   "gamesNumber": [
     {
       "id": 1,
@@ -78,7 +65,7 @@
       {
         "id": 1,
         "name": "自由选漂",
-        "piaoNumber": 0
+        "piaoNumber": null
       },
       {
         "id": 2,
